@@ -4,7 +4,7 @@ import { StyleSheet, Text, View, Image } from 'react-native';
 export default function Search() {
   return (
     <View style={styles.container}>
-        <Image style={styles.img}source={require('../../img/azul.jpg')}/>
+        <Image style={styles.img}source={require('../../img/jogadores.jpeg')}/>
     
     </View>
   
@@ -16,13 +16,11 @@ export default function Search() {
 const styles = StyleSheet.create({
     container: {
       flex: 1,
-      backgroundColor: '#191970',
-      alignItems: 'center',
-      justifyContent: 'center',
+      
     },
     img: {
-      height: "80%",
-      width:"80%"
+      height: "100%",
+      width:"100%"
     }
   });
 

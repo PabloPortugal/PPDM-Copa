@@ -4,7 +4,7 @@ import { StyleSheet, Text, View, Image } from 'react-native';
 export default function Notification() {
   return (
     <View style={styles.container}>
-        <Image style={styles.img}source={require('../../img/verde.jpg')}/>
+        <Image style={styles.img}source={require('../../times.jpeg')}/>
     
     </View>
   );
@@ -13,12 +13,10 @@ export default function Notification() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#228B22',
-    alignItems: 'center',
-    justifyContent: 'center',
+    
   },
   img: {
-    height: "80%",
-    width:"80%"
+    height: "100%",
+    width:"100%"
   }
 });
